@@ -1,12 +1,9 @@
-import GridView1 from "./Components/GridView01/GridView1";
-
-
+import VoxitechBlogPage from "./Components/BlogPage/VoxitechBlogPage";
 
 function App() {
   return (
     <div className="App">
-   
-      <GridView1/>
+      <VoxitechBlogPage />
     </div>
   );
 }

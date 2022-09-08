@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(223, 223, 223);
+}
+.BlogGridContainer {
+  background: rebeccapurple;
+}
+/*Start main Grid*/
+.BlogContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 600px 426px 426px 426px;
+  grid-gap: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.BlogGridContainer-1 {
+  grid-column: 1/7;
+}
+.BlogGridContainer-2 {
+  grid-column: 1/5;
+}
+.BlogGridContainer-3 {
+  grid-column: 5/7;
+}
+.BlogGridContainer-4 {
+  grid-column: 1/3;
+}
+.BlogGridContainer-5 {
+  grid-column: 3/7;
+}
+.BlogGridContainer-6 {
+  grid-column: 1/5;
+}
+.BlogGridContainer-7 {
+  grid-column: 5/7;
+}
+.BlogGridContainer-8 {
+  grid-column: 1/7;
+}
+/*end main Grid*/
+
+/*start primary Grid 01*/
+.BlogGridContainer-1 {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 400px 80px;
+}
+.SliderImage {
+  grid-column: 1/11;
+  grid-row: 1/2;
+}
+.SliderImage img {
+  grid-column: 1/11;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.SliderImageDeatils {
+  grid-column: 1/11;
+  grid-row: 1/2;
+  color: aliceblue;
+}
+.BlogTitleAndSearch {
+  grid-column: 1/11;
+  grid-row: 2/3;
+}
+.BlogTags {
+  grid-column: 1/11;
+  grid-auto-rows: auto;
+}
+/*end primary Grid 01*/
+
+/*start primary Grid 02*/
+.BlogGridContainer-2 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  border-radius: 25px;
+}
+.BlogCardImage1 {
+  grid-column: 1/9;
+  grid-row: 1/7;
+}
+.BlogCardImage1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.CardDetailsRight {
+  grid-column: 7/9;
+  grid-row: 1/7;
+}
+.CardDetailsMiddle {
+  padding: 10px;
+  grid-column: 1/7;
+  grid-row: 2/6;
+}
+/*end primary Grid 02*/
+
+/*start primary Grid 02 body*/
+.CardDetailsMiddle .TrendsTitle {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  font-family: "Inter";
+  font-style: normal;
+}
+.CardDetailsMiddle .CardDetailsMiddleTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.CardDetailsMiddle .CardDetailsMiddleName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.CardDetailsMiddle .CardDetailsMiddleDetails {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.CardDetailsRight {
+  position: relative;
+}
+.CardDetailsMiddle .CommentAndLike {
+  color: #ffffff;
+}
+
+.CardDetailsRight .CardDetailsRightVl {
+  border-left: 2px dashed #fff;
+  height: 83%;
+  margin-left: 50%;
+  margin-top: 5vh;
+}
+.CardDetailsRight .CardDetailsRightDate {
+  position: absolute;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-family: "Inter";
+  font-style: normal;
+  margin-left: 70%;
+  bottom: 15%;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.5em;
+  color: #fff;
+}
+/*end primary Grid 02 body*/
+
+/*start primary Grid 03*/
+.BlogGridContainer-3 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  border-radius: 25px;
+}
+/*end primary Grid 03*/
+/*start primary Grid 04*/
+.BlogGridContainer-4 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  border-radius: 25px;
+}
+/*end primary Grid 04*/
+/*start primary Grid 04*/
+.BlogGridContainer-5 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  border-radius: 25px;
+}
+/*end primary Grid 04*/
+/*start primary Grid 05*/
+.BlogGridContainer-6 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  border-radius: 25px;
+}
+/*end primary Grid 05*/
+/*start primary Grid 06*/
+.BlogGridContainer-7 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  border-radius: 25px;
+}
+/*end primary Grid 06*/
+/*start primary Grid 07*/
+.logGridContainerArrow {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  bottom: 3%;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 100%;
+  vertical-align: middle;
+}
+.logGridContainerArrow .LeftArrow {
+  margin-top: 5px;
+  color: #565656;
+}
+.logGridContainerArrow .RightArrow {
+  margin-top: 5px;
+  color: #fff;
+}
+.logGridContainerArrow .ArroNum1 {
+  margin-top: 1px;
+  font-size: 28px;
+  color: #fff;
+}
+.logGridContainerArrow .ArroNum2 {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #565656;
+}
+
+/*end primary Grid 07*/

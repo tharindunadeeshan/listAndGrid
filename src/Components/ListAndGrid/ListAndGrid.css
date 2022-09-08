@@ -108,6 +108,7 @@ color: rgb(99, 109, 109);
     height: 80px;
     border-radius: 50%;
 }
+
 .project_title{
     grid-column: 2/4;
     grid-row: 2/3;
