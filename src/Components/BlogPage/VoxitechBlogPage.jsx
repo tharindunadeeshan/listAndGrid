@@ -8,34 +8,52 @@ import backgroundImage4 from "../../images/background5.jpg";
 import backgroundImage6 from "../../images/background7.jpg";
 import { FaRegCommentDots, FaRegHeart } from "react-icons/fa";
 import { MdKeyboardArrowLeft, MdArrowForwardIos } from "react-icons/md";
+import { FiAlignJustify } from "react-icons/fi";
 
 const VoxitechBlogPage = () => {
   return (
     <div className="BlogContainer">
       <div className="BlogGridContainer BlogGridContainer-1">
         <div className="SliderImage">
-          <img src={sliderImage1} alt="" />
+          <img src={backgroundImage4} alt="" />
         </div>
         <div className="SliderImageDeatils">
-          <h2>BlogContainer-1</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-            alias!
-          </p>
+          <p className="welcomeTitle">Welcome to Our</p>
+          <h2 className="UpperBlog">Blog</h2>
+          
+        </div>
+        <div className="SliderImageDeatils2">
+          
+          <p className='sliderDate'>07 JUL 2022</p>
         </div>
         <div className="BlogTitleAndSearch">
-          <h1>Blogs</h1>
+          <div className="DivBlogTitle">
+            <h1 className="BlogTitle">Blog Articles</h1>
+          </div>
+
+          <div className="SearchAndMenu">
+            <form action="">
+              <input
+                className="searchbox"
+                type="text"
+                placeholder="Search.."
+                name="search"
+              />
+            </form>
+          </div>
+          <FiAlignJustify className="fisearchIcon" type="submit" />
         </div>
         <div className="BlogTags">
-          <h3>Sugges</h3>
+          <div className="divBlogTagsTitle">
+            <h3 className="BlogTagsTitle">Sugessions</h3>
+          </div>
+
           <ul className="TagsList">
-            <ul-tagItems-1>
-              <button>All</button>
-              <button>All</button>
-              <button>All</button>
-              <button>All</button>
-              <button>All</button>
-            </ul-tagItems-1>
+            <button className="btn">All</button>
+            <button className="btn active"> Technologies</button>
+            <button className="btn">News</button>
+            <button className="btn">Trends</button>
+            <button className="btn">All</button>
           </ul>
         </div>
       </div>
@@ -45,7 +63,7 @@ const VoxitechBlogPage = () => {
         </div>
         <div className="CardDetailsRight">
           <div className="CardDetailsRightVl"></div>
-          <p className="CardDetailsRightDate">06 JUL 22</p>
+          <p className="CardDetailsRightDate1">06 JUL 22</p>
         </div>
         <div className="CardDetailsMiddle">
           <p className="TrendsTitle">Technology | Trends</p>
@@ -55,24 +73,23 @@ const VoxitechBlogPage = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-
-          <div className="CommentAndLike">
-            <FaRegHeart
-              className="icon"
-              style={{ marginRight: "6px" }}
-              size="17px"
-              color="white"
-            />
-            <span>600</span>
-            <span></span>
-            <FaRegCommentDots
-              className="icon"
-              style={{ marginRight: "6px" }}
-              size="17px"
-              color="white"
-            />{" "}
-            <span>50</span>
-          </div>
+        </div>
+        <div className="CommentAndLike">
+          <FaRegHeart
+            className="icon"
+            style={{ marginRight: "10px" }}
+            size="17px"
+            color="white"
+          />
+          <span className="LikeCount">600</span>
+          <span></span>
+          <FaRegCommentDots
+            className="icon"
+            style={{ marginRight: "10px" }}
+            size="17px"
+            color="white"
+          />{" "}
+          <span className="CommentCount">50</span>
         </div>
       </div>
       <div className="BlogGridContainer BlogGridContainer-3">
@@ -85,30 +102,29 @@ const VoxitechBlogPage = () => {
         </div>
         <div className="CardDetailsMiddle">
           <p className="TrendsTitle">Technology | Trends</p>
-          <h3 className="CardDetailsMiddleTitle">Big Data In future</h3>
+          <h3 className="CardDetailsMiddleTitle">System Changes</h3>
           <p className="CardDetailsMiddleName">Jane Smith</p>
           <p className="CardDetailsMiddleDetails">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-
-          <div className="CommentAndLike">
-            <FaRegHeart
-              className="icon"
-              style={{ marginRight: "6px" }}
-              size="17px"
-              color="white"
-            />
-            <span>600</span>
-            <span></span>
-            <FaRegCommentDots
-              className="icon"
-              style={{ marginRight: "6px" }}
-              size="17px"
-              color="white"
-            />{" "}
-            <span>50</span>
-          </div>
+        </div>
+        <div className="CommentAndLike">
+          <FaRegHeart
+            className="icon"
+            style={{ marginRight: "6px" }}
+            size="17px"
+            color="white"
+          />
+          <span className="LikeCount">600</span>
+          <span></span>
+          <FaRegCommentDots
+            className="icon"
+            style={{ marginRight: "6px" }}
+            size="17px"
+            color="white"
+          />{" "}
+          <span className="CommentCount">50</span>
         </div>
       </div>
       <div className="BlogGridContainer BlogGridContainer-4">
@@ -121,30 +137,30 @@ const VoxitechBlogPage = () => {
         </div>
         <div className="CardDetailsMiddle">
           <p className="TrendsTitle">Technology | Trends</p>
-          <h3 className="CardDetailsMiddleTitle">Big Data In future</h3>
+          <h3 className="CardDetailsMiddleTitle">Artificial Inteligence</h3>
           <p className="CardDetailsMiddleName">Jane Smith</p>
           <p className="CardDetailsMiddleDetails">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
+        </div>
 
-          <div className="CommentAndLike">
-            <FaRegHeart
-              className="icon"
-              style={{ marginRight: "6px" }}
-              size="17px"
-              color="white"
-            />
-            <span>600</span>
-            <span></span>
-            <FaRegCommentDots
-              className="icon"
-              style={{ marginRight: "6px" }}
-              size="17px"
-              color="white"
-            />{" "}
-            <span>50</span>
-          </div>
+        <div className="CommentAndLike">
+          <FaRegHeart
+            className="icon"
+            style={{ marginRight: "6px" }}
+            size="17px"
+            color="white"
+          />
+          <span className="LikeCount">600</span>
+          <span></span>
+          <FaRegCommentDots
+            className="icon"
+            style={{ marginRight: "6px" }}
+            size="17px"
+            color="white"
+          />{" "}
+          <span className="CommentCount">50</span>
         </div>
       </div>
       <div className="BlogGridContainer BlogGridContainer-5">
@@ -153,34 +169,34 @@ const VoxitechBlogPage = () => {
         </div>
         <div className="CardDetailsRight">
           <div className="CardDetailsRightVl"></div>
-          <p className="CardDetailsRightDate">06 JUL 22</p>
+          <p className="CardDetailsRightDate1">06 JUL 22</p>
         </div>
         <div className="CardDetailsMiddle">
-          <p className="TrendsTitle">Technology | Trends</p>
+          <p className="TrendsTitle">System Changes</p>
           <h3 className="CardDetailsMiddleTitle">Big Data In future</h3>
           <p className="CardDetailsMiddleName">Jane Smith</p>
           <p className="CardDetailsMiddleDetails">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
+        </div>
 
-          <div className="CommentAndLike">
-            <FaRegHeart
-              className="icon"
-              style={{ marginRight: "6px" }}
-              size="17px"
-              color="white"
-            />
-            <span>600</span>
-            <span></span>
-            <FaRegCommentDots
-              className="icon"
-              style={{ marginRight: "6px" }}
-              size="17px"
-              color="white"
-            />{" "}
-            <span>50</span>
-          </div>
+        <div className="CommentAndLike">
+          <FaRegHeart
+            className="icon"
+            style={{ marginRight: "6px" }}
+            size="17px"
+            color="white"
+          />
+          <span className="LikeCount">600</span>
+          <span></span>
+          <FaRegCommentDots
+            className="icon"
+            style={{ marginRight: "6px" }}
+            size="17px"
+            color="white"
+          />{" "}
+          <span className="CommentCount">50</span>
         </div>
       </div>
       <div className="BlogGridContainer BlogGridContainer-6">
@@ -189,7 +205,7 @@ const VoxitechBlogPage = () => {
         </div>
         <div className="CardDetailsRight">
           <div className="CardDetailsRightVl"></div>
-          <p className="CardDetailsRightDate">06 JUL 22</p>
+          <p className="CardDetailsRightDate1">06 JUL 22</p>
         </div>
         <div className="CardDetailsMiddle">
           <p className="TrendsTitle">Technology | Trends</p>
@@ -199,24 +215,24 @@ const VoxitechBlogPage = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
+        </div>
 
-          <div className="CommentAndLike">
-            <FaRegHeart
-              className="icon"
-              style={{ marginRight: "6px" }}
-              size="17px"
-              color="white"
-            />
-            <span>600</span>
-            <span></span>
-            <FaRegCommentDots
-              className="icon"
-              style={{ marginRight: "6px" }}
-              size="17px"
-              color="white"
-            />{" "}
-            <span>50</span>
-          </div>
+        <div className="CommentAndLike">
+          <FaRegHeart
+            className="icon"
+            style={{ marginRight: "6px" }}
+            size="17px"
+            color="white"
+          />
+          <span className="LikeCount">600</span>
+          <span></span>
+          <FaRegCommentDots
+            className="icon"
+            style={{ marginRight: "6px" }}
+            size="17px"
+            color="white"
+          />{" "}
+          <span className="CommentCount">50</span>
         </div>
       </div>
       <div className="BlogGridContainer BlogGridContainer-7">
@@ -235,24 +251,24 @@ const VoxitechBlogPage = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
+        </div>
 
-          <div className="CommentAndLike">
-            <FaRegHeart
-              className="icon"
-              style={{ marginRight: "6px" }}
-              size="17px"
-              color="white"
-            />
-            <span>600</span>
-            <span></span>
-            <FaRegCommentDots
-              className="icon"
-              style={{ marginRight: "6px" }}
-              size="17px"
-              color="white"
-            />{" "}
-            <span>50</span>
-          </div>
+        <div className="CommentAndLike">
+          <FaRegHeart
+            className="icon"
+            style={{ marginRight: "6px" }}
+            size="17px"
+            color="white"
+          />
+          <span className="LikeCount">600</span>
+          <span></span>
+          <FaRegCommentDots
+            className="icon"
+            style={{ marginRight: "6px" }}
+            size="17px"
+            color="white"
+          />{" "}
+          <span className="CommentCount">50</span>
         </div>
       </div>
       <div className="BlogGridContainer BlogGridContainer-8">
