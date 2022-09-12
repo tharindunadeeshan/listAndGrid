@@ -456,24 +456,45 @@ body {
   }
   /*blog page main Titile change*/
   .BlogTitleAndSearch {
+    padding-left: 5px;
+  }
+
+  .BlogTags {
+    padding-left: 5px;
+  }
+  .BlogTitleAndSearch {
     display: inline;
   }
 
   .BlogGridContainer-1 .BlogTitleAndSearch .BlogTitle {
-    font-size: 30px;
+    font-size: 27px;
   }
   .BlogGridContainer-1 .BlogTitleAndSearch .SearchAndMenu {
     position: absolute;
   }
   .BlogGridContainer-1 .BlogTitleAndSearch .SearchAndMenu .searchbox {
-    width: 68vw;
+    height: 35px;
+    width: 75vw;
   }
   .BlogGridContainer-1 .BlogTitleAndSearch .fisearchIcon {
     display: flex;
     position: absolute;
     right: 5px;
-    width: 40px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
+  }
+  .BlogTagsTitle {
+    font-weight: 400;
+    font-size: 21px;
+  }
+  .TagsList button {
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    line-height: 22px;
+    padding: 9px 15px;
+    font-size: 15px;
+    line-height: 20px;
   }
 
   .CardDetailsRight .CardDetailsRightDate {
