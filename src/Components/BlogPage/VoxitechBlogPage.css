@@ -164,7 +164,7 @@ body {
   color: #fff;
   font-size: 16px;
   width: 300px;
-  height: 45px;
+  height: 40px;
   right: 80px;
   border: none;
   background: rgba(0, 193, 255, 0.32);
@@ -175,7 +175,7 @@ body {
   justify-items: center;
   color: white;
   width: 40px;
-  height: 45px;
+  height: 40px;
   margin-right: 20px;
   background: #00c1ff;
   border-radius: 5px;
@@ -187,9 +187,9 @@ body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 30px;
-
+  margin-bottom: 10px;
   color: #ffffff;
 }
 .TagsList {
@@ -416,7 +416,8 @@ body {
 /*end primary Grid 07*/
 
 /* start responsive*/
-/*mobile  responsive*/
+
+/* start mobile  responsive*/
 @media screen and (max-width: 750px) {
   /*blog page main image details size change*/
   .BlogGridContainer-1 {
@@ -528,3 +529,132 @@ body {
   }
   /*blog card date change direction*/
 }
+/*End Mobile Responsive*/
+
+/*End Tablet Responsive*/
+@media screen and (max-width: 884px) {
+  /*blog page main image details size change*/
+  .BlogGridContainer-1 {
+    grid-template-rows: 250px 120px auto;
+  }
+
+  /*blog cards margin fix*/
+  .BlogContainer {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .SliderImageDeatils {
+    margin-top: 3px;
+  }
+  .SliderImageDeatils2 .sliderDate {
+    display: none;
+  }
+  .MouseScroll {
+    position: relative;
+    position: flex;
+    height: 70px;
+    width: 70px;
+    bottom: -25%;
+    left: 20%;
+  }
+  .robootgif {
+    display: none;
+  }
+  .SliderImageDeatils .welcomeTitle {
+    font-size: 45px;
+    letter-spacing: 0.2em;
+  }
+  .SliderImageDeatils .UpperBlog {
+    font-size: 70px;
+  }
+  /*blog page main Titile change*/
+  .BlogTitleAndSearch {
+    padding-left: 5px;
+  }
+
+  .BlogTags {
+    padding-left: 5px;
+  }
+  .BlogTitleAndSearch {
+    display: inline;
+  }
+
+  .BlogGridContainer-1 .BlogTitleAndSearch .BlogTitle {
+    font-size: 27px;
+  }
+  .BlogGridContainer-1 .BlogTitleAndSearch .SearchAndMenu {
+    position: absolute;
+  }
+  .BlogGridContainer-1 .BlogTitleAndSearch .SearchAndMenu .searchbox {
+    height: 40px;
+    width: 85vw;
+  }
+  .BlogGridContainer-1 .BlogTitleAndSearch .fisearchIcon {
+    display: flex;
+    position: absolute;
+    right: 5px;
+    width: 35px;
+    height: 40px;
+  }
+  .BlogTagsTitle {
+    font-weight: 400;
+    font-size: 21px;
+  }
+  .TagsList button {
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    line-height: 22px;
+    padding: 9px 15px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .CardDetailsRight .CardDetailsRightDate {
+    right: 50%;
+  }
+  /*blog card grid size fix*/
+  .BlogGridContainer-2 {
+    grid-column: 1/7;
+  }
+  .BlogGridContainer-3 {
+    grid-column: 1/7;
+  }
+  .BlogGridContainer-4 {
+    grid-column: 1/7;
+  }
+  .BlogGridContainer-5 {
+    grid-column: 1/7;
+  }
+  .BlogGridContainer-6 {
+    grid-column: 1/7;
+  }
+  .BlogGridContainer-7 {
+    grid-column: 1/7;
+  }
+  .BlogGridContainer-8 {
+    grid-column: 1/7;
+  }
+  /* blog card line display none*/
+  .CardDetailsRight .CardDetailsRightVl {
+    display: none;
+  }
+  /*blog card date change direction*/
+}
+
+@media screen and (max-width : 1280px){
+
+}
+@media screen and (max-width:1366px){
+
+}
+@media screen and (max-width : 1600px){
+    
+}
+
+@media screen and (max-width:1920px),
+  screen and (min-width:1920px) {
+    
+  }
