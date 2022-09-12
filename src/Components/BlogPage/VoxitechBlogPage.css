@@ -49,6 +49,7 @@ body {
 /*end main Grid*/
 
 /*start primary Grid 01*/
+
 .BlogGridContainer-1 {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -100,23 +101,45 @@ body {
   right: 10%;
   letter-spacing: 6px;
 }
+.MouseScroll {
+  position: relative;
+  position: flex;
+  height: 80px;
+  width: 80px;
+  bottom: 25%;
+  left: 20%;
+}
 .SliderImageDeatils {
+  position: relative;
+  align-items: center;
+  justify-content: center;
   margin-top: 35px;
-  text-align: center;
 }
 .SliderImageDeatils .welcomeTitle {
+  display: grid;
+  justify-items: center;
   font-size: 30px;
   color: #fff;
   font-family: monospace;
   margin: 0 auto;
   letter-spacing: 0.75em;
 }
+.robootgif {
+  position: absolute;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .SliderImageDeatils .UpperBlog {
+  display: grid;
+  justify-items: center;
   font-size: 100px;
   color: #fff;
   font-family: monospace;
   margin: 0 auto;
   letter-spacing: 0.3em;
+  z-index: 0;
 }
 
 /* Start Bloag slider Details And Search Body*/
@@ -341,9 +364,6 @@ body {
   grid-template-rows: repeat(8, 1fr);
   border-radius: 25px;
 }
-.SliderImageDeatils2 .sliderDate {
-  display: none;
-}
 
 /*end primary Grid 04*/
 /*start primary Grid 05*/
@@ -414,6 +434,24 @@ body {
   .SliderImageDeatils {
     margin-top: 3px;
   }
+  .SliderImageDeatils2 .sliderDate {
+    display: none;
+  }
+  .MouseScroll {
+    position: relative;
+    position: flex;
+    height: 60px;
+    width: 60px;
+    bottom: -25%;
+    left: 20%;
+  }
+  .robootgif {
+    position: absolute;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .SliderImageDeatils .welcomeTitle {
     font-size: 30px;
     letter-spacing: 0.2em;
@@ -443,6 +481,9 @@ body {
     height: 45px;
   }
 
+  .CardDetailsRight .CardDetailsRightDate {
+    right: 50%;
+  }
   /*blog card grid size fix*/
   .BlogGridContainer-2 {
     grid-column: 1/7;

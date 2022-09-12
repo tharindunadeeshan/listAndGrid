@@ -6,6 +6,8 @@ import backgroundImage2 from "../../images/background1.jpg";
 import backgroundImage3 from "../../images/background4.jpg";
 import backgroundImage4 from "../../images/background5.jpg";
 import backgroundImage6 from "../../images/background7.jpg";
+import mousescrollGif from "../../images/mousescroll.gif";
+import roboot1 from "../../images/roboot1.gif";
 import { FaRegCommentDots, FaRegHeart } from "react-icons/fa";
 import { MdKeyboardArrowLeft, MdArrowForwardIos } from "react-icons/md";
 import { FiAlignJustify } from "react-icons/fi";
@@ -19,12 +21,14 @@ const VoxitechBlogPage = () => {
         </div>
         <div className="SliderImageDeatils">
           <p className="welcomeTitle">Welcome to Our</p>
-          <h2 className="UpperBlog">Blog</h2>
-          
+          <h2 className="UpperBlog">
+            Blog <span></span>
+          </h2>
+          <img className="robootgif" src={roboot1} alt="" />
         </div>
         <div className="SliderImageDeatils2">
-          
-          <p className='sliderDate'>07 JUL 2022</p>
+          <p className="sliderDate">07 JUL 2022</p>
+          <img className="MouseScroll" src={mousescrollGif} alt="" />
         </div>
         <div className="BlogTitleAndSearch">
           <div className="DivBlogTitle">
@@ -41,7 +45,7 @@ const VoxitechBlogPage = () => {
               />
             </form>
           </div>
-          <FiAlignJustify className="fisearchIcon" type="submit" />
+          <FiAlignJustify className="fisearchIcon" type="button" />
         </div>
         <div className="BlogTags">
           <div className="divBlogTagsTitle">
@@ -57,6 +61,7 @@ const VoxitechBlogPage = () => {
           </ul>
         </div>
       </div>
+
       <div className="BlogGridContainer BlogGridContainer-2">
         <div className="BlogCardImage1">
           <img src={backgroundImage1} alt="" />
