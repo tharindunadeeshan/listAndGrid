@@ -8,14 +8,12 @@ body {
   width: 100%;
   background-color: rgb(14, 17, 53);
 }
-.BlogGridContainer {
-  background: rebeccapurple;
-}
+
 /*Start main Grid*/
 .BlogContainer {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 600px 426px 426px 426px;
+  grid-auto-rows: auto 426px 426px 426px;
   grid-gap: 1em;
   margin-left: 40px;
   margin-right: 40px;
@@ -45,6 +43,7 @@ body {
 }
 .BlogGridContainer-8 {
   grid-column: 1/7;
+  height: 12px;
 }
 /*end main Grid*/
 
@@ -54,6 +53,7 @@ body {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: 400px 60px;
+  grid-auto-rows: minmax(60px, auto);
 }
 .SliderImage {
   grid-column: 1/11;
@@ -81,13 +81,12 @@ body {
   grid-row: 2/3;
   align-items: center;
   padding-left: 20px;
-  background-color: black;
 }
 .BlogTags {
   grid-column: 1/11;
   grid-auto-rows: auto;
   padding-left: 20px;
-  background-color: black;
+  padding-bottom: 10px;
 }
 /*end primary Grid 01*/
 .SliderImageDeatils2 .sliderDate {
@@ -421,7 +420,7 @@ body {
 @media screen and (max-width: 750px) {
   /*blog page main image details size change*/
   .BlogGridContainer-1 {
-    grid-template-rows: 200px 150px;
+    grid-template-rows: 120px 120px auto;
   }
 
   /*blog cards margin fix*/
@@ -446,14 +445,10 @@ body {
     left: 20%;
   }
   .robootgif {
-    position: absolute;
-    height: 150px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: none;
   }
   .SliderImageDeatils .welcomeTitle {
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 0.2em;
   }
   .SliderImageDeatils .UpperBlog {

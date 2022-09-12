@@ -57,7 +57,10 @@ const VoxitechBlogPage = () => {
             <button className="btn active"> Technologies</button>
             <button className="btn">News</button>
             <button className="btn">Trends</button>
+            <button className="btn active"> Technologies</button>
             <button className="btn">All</button>
+            <button className="btn">News</button>
+            <button className="btn">Trends</button>
           </ul>
         </div>
       </div>
