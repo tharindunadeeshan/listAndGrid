@@ -6,7 +6,7 @@
 body {
   height: 100%;
   width: 100%;
-  background-color: rgb(14, 17, 53);
+  background-color: rgb(0, 0, 0);
 }
 
 /*Start main Grid*/
@@ -41,10 +41,7 @@ body {
 .BlogGridContainer-7 {
   grid-column: 5/7;
 }
-.BlogGridContainer-8 {
-  grid-column: 1/7;
-  height: 12px;
-}
+
 /*end main Grid*/
 
 /*start primary Grid 01*/
@@ -233,6 +230,12 @@ body {
   grid-column: 1/9;
   grid-row: 1/9;
 }
+.backgroundblur {
+  grid-column: 1/9;
+  grid-row: 1/9;
+  background: rgba(0, 0, 0, 0.59);
+  border-radius: 25px;
+}
 .BlogCardImage1 img {
   width: 100%;
   height: 100%;
@@ -264,6 +267,7 @@ body {
   text-decoration-line: underline;
   font-family: "Inter";
   font-style: normal;
+  cursor: pointer;
 }
 .CardDetailsMiddle .CardDetailsMiddleTitle {
   font-family: var(--font-inter);
@@ -273,7 +277,12 @@ body {
   line-height: 29px;
   color: #ffffff;
   margin-top: 10px;
+  cursor: pointer;
 }
+.CardDetailsMiddle .CardDetailsMiddleTitle:hover {
+  color: #00c1ff;
+}
+
 .CardDetailsMiddle .CardDetailsMiddleName {
   margin-top: 10px;
   font-family: "Inter";
@@ -519,9 +528,7 @@ body {
   .BlogGridContainer-7 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-8 {
-    grid-column: 1/7;
-  }
+
   /* blog card line display none*/
   .CardDetailsRight .CardDetailsRightVl {
     display: none;

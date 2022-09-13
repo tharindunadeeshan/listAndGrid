@@ -1,6 +1,11 @@
 import React from "react";
 import "./VoxitechBlogPage.css";
-import sliderImage1 from "../../images/background2.png";
+import sliderImage1 from "../../images/1.jpg";
+import backgroundImg1 from "../../images/2.jpg";
+import backgroundImg2 from "../../images/3.jpg";
+import backgroundImg3 from "../../images/4.jpg";
+import backgroundImg4 from "../../images/5.jpg";
+import backgroundImg5 from "../../images/6.jpg";
 import backgroundImage1 from "../../images/background3.jpg";
 import backgroundImage2 from "../../images/background1.jpg";
 import backgroundImage3 from "../../images/background4.jpg";
@@ -10,14 +15,14 @@ import mousescrollGif from "../../images/mousescroll.gif";
 import roboot1 from "../../images/roboot1.gif";
 import { FaRegCommentDots, FaRegHeart } from "react-icons/fa";
 import { MdKeyboardArrowLeft, MdArrowForwardIos } from "react-icons/md";
-import { FiAlignJustify } from "react-icons/fi";
+import { MdFilterList } from "react-icons/md";
 
 const VoxitechBlogPage = () => {
   return (
     <div className="BlogContainer">
       <div className="BlogGridContainer BlogGridContainer-1">
         <div className="SliderImage">
-          <img src={backgroundImage4} alt="" />
+          <img src={sliderImage1} alt="" />
         </div>
         <div className="SliderImageDeatils">
           <p className="welcomeTitle">Welcome to Our</p>
@@ -45,7 +50,7 @@ const VoxitechBlogPage = () => {
               />
             </form>
           </div>
-          <FiAlignJustify className="fisearchIcon" type="button" />
+          <MdFilterList className="fisearchIcon" type="button" />
         </div>
         <div className="BlogTags">
           <div className="divBlogTagsTitle">
@@ -66,8 +71,9 @@ const VoxitechBlogPage = () => {
 
       <div className="BlogGridContainer BlogGridContainer-2">
         <div className="BlogCardImage1">
-          <img src={backgroundImage1} alt="" />
+          <img src={backgroundImg1} alt="" />
         </div>
+        <div className="backgroundblur"></div>
         <div className="CardDetailsRight">
           <div className="CardDetailsRightVl"></div>
           <p className="CardDetailsRightDate1">06 JUL 22</p>
@@ -87,6 +93,7 @@ const VoxitechBlogPage = () => {
             style={{ marginRight: "10px" }}
             size="17px"
             color="white"
+            cursor="pointer"
           />
           <span className="LikeCount">600</span>
           <span></span>
@@ -95,14 +102,16 @@ const VoxitechBlogPage = () => {
             style={{ marginRight: "10px" }}
             size="17px"
             color="white"
+            cursor="pointer"
           />{" "}
           <span className="CommentCount">50</span>
         </div>
       </div>
       <div className="BlogGridContainer BlogGridContainer-3">
         <div className="BlogCardImage1">
-          <img src={backgroundImage2} alt="" />
+          <img src={backgroundImg2} alt="" />
         </div>
+        <div className="backgroundblur"></div>
         <div className="CardDetailsRight">
           <div className="CardDetailsRightVl"></div>
           <p className="CardDetailsRightDate">06 JUL 22</p>
@@ -122,6 +131,7 @@ const VoxitechBlogPage = () => {
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
+            cursor="pointer"
           />
           <span className="LikeCount">600</span>
           <span></span>
@@ -130,14 +140,16 @@ const VoxitechBlogPage = () => {
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
+            cursor="pointer"
           />{" "}
           <span className="CommentCount">50</span>
         </div>
       </div>
       <div className="BlogGridContainer BlogGridContainer-4">
         <div className="BlogCardImage1">
-          <img src={backgroundImage3} alt="" />
+          <img src={backgroundImg4} alt="" />
         </div>
+        <div className="backgroundblur"></div>
         <div className="CardDetailsRight">
           <div className="CardDetailsRightVl"></div>
           <p className="CardDetailsRightDate">06 JUL 22</p>
@@ -158,6 +170,7 @@ const VoxitechBlogPage = () => {
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
+            cursor="pointer"
           />
           <span className="LikeCount">600</span>
           <span></span>
@@ -166,14 +179,16 @@ const VoxitechBlogPage = () => {
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
+            cursor="pointer"
           />{" "}
           <span className="CommentCount">50</span>
         </div>
       </div>
       <div className="BlogGridContainer BlogGridContainer-5">
         <div className="BlogCardImage1">
-          <img src={backgroundImage4} alt="" />
+          <img src={backgroundImg3} alt="" />
         </div>
+        <div className="backgroundblur"></div>
         <div className="CardDetailsRight">
           <div className="CardDetailsRightVl"></div>
           <p className="CardDetailsRightDate1">06 JUL 22</p>
@@ -194,6 +209,7 @@ const VoxitechBlogPage = () => {
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
+            cursor="pointer"
           />
           <span className="LikeCount">600</span>
           <span></span>
@@ -202,14 +218,16 @@ const VoxitechBlogPage = () => {
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
+            cursor="pointer"
           />{" "}
           <span className="CommentCount">50</span>
         </div>
       </div>
       <div className="BlogGridContainer BlogGridContainer-6">
         <div className="BlogCardImage1">
-          <img src={backgroundImage4} alt="" />
+          <img src={backgroundImg5} alt="" />
         </div>
+        <div className="backgroundblur"></div>
         <div className="CardDetailsRight">
           <div className="CardDetailsRightVl"></div>
           <p className="CardDetailsRightDate1">06 JUL 22</p>
@@ -230,6 +248,7 @@ const VoxitechBlogPage = () => {
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
+            cursor="pointer"
           />
           <span className="LikeCount">600</span>
           <span></span>
@@ -238,14 +257,16 @@ const VoxitechBlogPage = () => {
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
+            cursor="pointer"
           />{" "}
           <span className="CommentCount">50</span>
         </div>
       </div>
       <div className="BlogGridContainer BlogGridContainer-7">
         <div className="BlogCardImage1">
-          <img src={backgroundImage6} alt="" />
+          <img src={backgroundImg5} alt="" />
         </div>
+        <div className="backgroundblur"></div>
         <div className="CardDetailsRight">
           <div className="CardDetailsRightVl"></div>
           <p className="CardDetailsRightDate">06 JUL 22</p>
@@ -266,6 +287,7 @@ const VoxitechBlogPage = () => {
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
+            cursor="pointer"
           />
           <span className="LikeCount">600</span>
           <span></span>
@@ -274,25 +296,9 @@ const VoxitechBlogPage = () => {
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
+            cursor="pointer"
           />{" "}
           <span className="CommentCount">50</span>
-        </div>
-      </div>
-      <div className="BlogGridContainer BlogGridContainer-8">
-        <div className="logGridContainerArrow">
-          <MdKeyboardArrowLeft
-            className="LeftArrow"
-            style={{ marginRight: "6px" }}
-            size="30px"
-          />
-          <span className="ArroNum1">01</span>
-          <MdArrowForwardIos
-            className="RightArrow"
-            style={{ marginRight: "6px" }}
-            size="32px"
-            color="white"
-          />
-          <span className="ArroNum2">02</span>
         </div>
       </div>
     </div>
