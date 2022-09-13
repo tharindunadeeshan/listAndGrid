@@ -235,6 +235,7 @@ body {
   grid-row: 1/9;
   background: rgba(0, 0, 0, 0.59);
   border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .BlogCardImage1 img {
   width: 100%;
@@ -330,7 +331,7 @@ body {
   right: 25%;
   bottom: 15%;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.5em;
   color: #fff;
 }
@@ -343,7 +344,7 @@ body {
   right: 50%;
   bottom: 15%;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.5em;
   color: #fff;
 }
