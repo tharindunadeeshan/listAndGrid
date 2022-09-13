@@ -80,8 +80,8 @@ const VoxitechBlogPage = () => {
         </div>
         <div className="CardDetailsMiddle">
           <p className="TrendsTitle">Technology | Trends</p>
-          <h3 className="CardDetailsMiddleTitle">Big Data In future</h3>
           <p className="CardDetailsMiddleName">Jane Smith</p>
+          <h3 className="CardDetailsMiddleTitle">Big Data In future</h3>
           <p className="CardDetailsMiddleDetails">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
