@@ -288,8 +288,8 @@ body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 19px;
+  line-height: 28px;
   color: #ffffff;
 }
 .CardDetailsRight {
@@ -529,20 +529,42 @@ body {
   /*blog card date change direction*/
 }
 
-@media screen and (max-width : 1280px){
-
-}
-@media screen and (max-width:1366px){
-
-}
-@media screen and (max-width : 1600px){
-    
-}
-
-@media screen and (max-width:1920px),
-  screen and (min-width:1920px) {
-    
+@media screen and (max-width: 1920px), screen and (min-width: 1920px) {
+  .BlogContainer {
+    margin-left: 253.5px;
+    margin-right: 253.5px;
   }
+}
+@media screen and (max-width: 1680px) {
+  .BlogContainer {
+    margin-left: 133.5px;
+    margin-right: 133.5px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .BlogContainer {
+    margin-left: 93.5px;
+    margin-right: 93.5px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .BlogContainer {
+    margin-left: 89.5.5px;
+    margin-right: 89.5px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .BlogContainer {
+    margin-left: 53.5px;
+    margin-right: 53.5px;
+  }
+}
+@media screen and (max-width: 976px) {
+  .BlogContainer {
+    margin-left: 15px;
+    margin-right: 15.5px;
+  }
+}
 
 /* start mobile  responsive*/
 @media screen and (max-width: 750px) {
@@ -657,4 +679,3 @@ body {
   /*blog card date change direction*/
 }
 /*End Mobile Responsive*/
-
