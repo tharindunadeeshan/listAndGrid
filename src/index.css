@@ -44,43 +44,43 @@ code {
 
 @font-face {
   font-family: "Nunito-Bold";
-  src: url("../../fonts/Nunito-ExtraBold.ttf") format("truetype"); /* Safari, Android, iOS */
+  src: url("fonts/Nunito-ExtraBold.ttf") format("truetype"); /* Safari, Android, iOS */
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts//Poppins-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+  src: url("fonts/Poppins-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins-bold";
-  src: url("../../fonts/Poppins-ExtraBold.ttf") format("truetype"); /* Safari, Android, iOS */
+  src: url("fonts/Poppins-ExtraBold.ttf") format("truetype"); /* Safari, Android, iOS */
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "BebasNeue-Regular";
-  src: url("../../fonts/BebasNeue-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+  src: url("fonts/BebasNeue-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: "OpenSans";
-  src: url("../../fonts/OpenSans-Light.ttf") format("truetype"); /* Safari, Android, iOS */
+  src: url("fonts/OpenSans-Light.ttf") format("truetype"); /* Safari, Android, iOS */
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: "koho";
-  src: url("../../fonts//KoHo-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+  src: url("fonts/KoHo-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Inter";
-  src: url("../../fonts//Inter.ttf") format("truetype"); /* Safari, Android, iOS */
+  src: url("fonts/Inter.ttf") format("truetype"); /* Safari, Android, iOS */
   font-weight: normal;
   font-style: normal;
 }
