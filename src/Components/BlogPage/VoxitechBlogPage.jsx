@@ -1,5 +1,5 @@
 import React from "react";
-import "./VoxitechBlogPage.css";
+import stylecss from "./VoxitechBlogPage.module.css";
 import sliderImage1 from "../../images/1.jpg";
 import backgroundImg1 from "../../images/2.jpg";
 import backgroundImg2 from "../../images/3.jpg";
@@ -19,286 +19,299 @@ import { MdFilterList } from "react-icons/md";
 
 const VoxitechBlogPage = () => {
   return (
-    <div className="BlogContainer">
-      <div className="BlogGridContainer BlogGridContainer-1">
-        <div className="SliderImage">
+    <div className={stylecss.BlogContainer}>
+      <div
+        className={`${stylecss.BlogGridContainer} ${stylecss.BlogGridContainer_1}`}
+      >
+        <div className={stylecss.SliderImage}>
           <img src={sliderImage1} alt="" />
         </div>
-        <div className="SliderImageDeatils">
-          <p className="welcomeTitle">Welcome to Our</p>
-          <h2 className="UpperBlog">
+        <div className={stylecss.SliderImageDeatils}>
+          <p className={stylecss.welcomeTitle}>Welcome to Our</p>
+          <h2 className={stylecss.UpperBlog}>
             Blog <span></span>
           </h2>
-          <img className="robootgif" src={roboot1} alt="" />
+          <img className={stylecss.robootgif} src={roboot1} alt="" />
         </div>
-        <div className="SliderImageDeatils2">
-          <p className="sliderDate">07 JUL 2022</p>
-          <img className="MouseScroll" src={mousescrollGif} alt="" />
+        <div className={stylecss.SliderImageDeatils2}>
+          <p className={stylecss.sliderDate}>07 JUL 2022</p>
+          <img className={stylecss.MouseScroll} src={mousescrollGif} alt="" />
         </div>
-        <div className="BlogTitleAndSearch">
-          <div className="DivBlogTitle">
-            <h1 className="BlogTitle">Blog Articles</h1>
+        <div className={stylecss.BlogTitleAndSearch}>
+          <div className={stylecss.DivBlogTitle}>
+            <h1 className={stylecss.BlogTitle}>Blog Articles</h1>
           </div>
 
-          <div className="SearchAndMenu">
+          <div className={stylecss.SearchAndMenu}>
             <form action="">
               <input
-                className="searchbox"
+                className={stylecss.searchbox}
                 type="text"
                 placeholder="Search.."
                 name="search"
               />
             </form>
           </div>
-          <MdFilterList className="fisearchIcon" type="button" />
+          <MdFilterList className={stylecss.fisearchIcon} type="button" />
         </div>
-        <div className="BlogTags">
-          <div className="divBlogTagsTitle">
-            <h3 className="BlogTagsTitle">Sugessions</h3>
+        <div className={stylecss.BlogTags}>
+          <div className={stylecss.divBlogTagsTitle}>
+            <h3 className={stylecss.BlogTagsTitle}>Sugessions</h3>
           </div>
 
-          <ul className="TagsList">
-            <button className="btn">All</button>
-            <button className="btn active"> Technologies</button>
-            <button className="btn">News</button>
-            <button className="btn">Trends</button>
-            <button className="btn active"> Technologies</button>
-            <button className="btn">News</button>
-            <button className="btn">Trends</button>
+          <ul className={stylecss.TagsList}>
+            <button className={stylecss.btn}>All</button>
+            <button className={stylecss.btn}> Technologies</button>
+            <button className={stylecss.btn}>News</button>
+            <button className={stylecss.btn}>Trends</button>
+            <button className={stylecss.btn}> Technologies</button>
+            <button className={stylecss.btn}>News</button>
+            <button className={stylecss.btn}>Trends</button>
           </ul>
         </div>
       </div>
 
-      <div className="BlogGridContainer BlogGridContainer-2">
-        <div className="BlogCardImage1">
+      <div
+        className={`${stylecss.BlogGridContainer} ${stylecss.BlogGridContainer_2}`}
+      >
+        <div className={stylecss.BlogCardImage1}>
           <img src={backgroundImg1} alt="" />
         </div>
-        <div className="backgroundblur"></div>
-        <div className="CardDetailsRight">
-          <div className="CardDetailsRightVl"></div>
-          <p className="CardDetailsRightDate1">06 JUL 22</p>
+        <div className={stylecss.backgroundblur}></div>
+
+        <div className={stylecss.CardDetailsRight}>
+          <div className={stylecss.CardDetailsRightVl}></div>
+          <p className={stylecss.CardDetailsRightDate1}>06 JUL 22</p>
         </div>
-        <div className="CardDetailsMiddle">
-          <p className="TrendsTitle">Technology | Trends</p>
-          <p className="CardDetailsMiddleName">Jane Smith</p>
-          <h3 className="CardDetailsMiddleTitle">Big Data In future</h3>
-          <p className="CardDetailsMiddleDetails">
+        <div className={stylecss.CardDetailsMiddle}>
+          <p className={stylecss.TrendsTitle}>Technology | Trends</p>
+          <p className={stylecss.CardDetailsMiddleName}>Jane Smith</p>
+          <h3 className={stylecss.CardDetailsMiddleTitle}>
+            Big Data In future
+          </h3>
+          <p className={stylecss.CardDetailsMiddleDetails}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-        <div className="CommentAndLike">
+        <div className={stylecss.CommentAndLike}>
           <FaRegHeart
-            className="icon"
+            className={stylecss.icon}
             style={{ marginRight: "10px" }}
             size="17px"
             color="white"
             cursor="pointer"
           />
-          <span className="LikeCount">600</span>
+          <span className={stylecss.LikeCount}>600</span>
           <span></span>
           <FaRegCommentDots
-            className="icon"
+            className={stylecss.icon}
             style={{ marginRight: "10px" }}
             size="17px"
             color="white"
             cursor="pointer"
           />{" "}
-          <span className="CommentCount">50</span>
+          <span className={stylecss.CommentCount}>50</span>
         </div>
       </div>
-      <div className="BlogGridContainer BlogGridContainer-3">
-        <div className="BlogCardImage1">
+      <div
+        className={`${stylecss.BlogGridContainer} ${stylecss.BlogGridContainer_3}`}
+      >
+        <div className={stylecss.BlogCardImage1}>
           <img src={backgroundImg2} alt="" />
         </div>
-        <div className="backgroundblur"></div>
-        <div className="CardDetailsRight">
-          <div className="CardDetailsRightVl"></div>
-          <p className="CardDetailsRightDate">06 JUL 22</p>
+        <div className={stylecss.backgroundblur}></div>
+        <div className={stylecss.CardDetailsRight}>
+          <div className={stylecss.CardDetailsRightVl}></div>
+          <p className={stylecss.CardDetailsRightDate}>06 JUL 22</p>
         </div>
-        <div className="CardDetailsMiddle">
-          <p className="TrendsTitle">Technology | Trends</p>
-          <h3 className="CardDetailsMiddleTitle">System Changes</h3>
-          <p className="CardDetailsMiddleName">Jane Smith</p>
-          <p className="CardDetailsMiddleDetails">
+        <div className={stylecss.CardDetailsMiddle}>
+          <p className={stylecss.TrendsTitle}>Technology | Trends</p>
+          <h3 className={stylecss.CardDetailsMiddleTitle}>System Changes</h3>
+          <p className={stylecss.CardDetailsMiddleName}>Jane Smith</p>
+          <p className={stylecss.CardDetailsMiddleDetails}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-        <div className="CommentAndLike">
+        <div className={stylecss.CommentAndLike}>
           <FaRegHeart
-            className="icon"
+            className={stylecss.icon}
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
             cursor="pointer"
           />
-          <span className="LikeCount">600</span>
+          <span className={stylecss.LikeCount}>600</span>
           <span></span>
           <FaRegCommentDots
-            className="icon"
+            className={stylecss.icon}
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
             cursor="pointer"
           />{" "}
-          <span className="CommentCount">50</span>
+          <span className={stylecss.CommentCount}>50</span>
         </div>
       </div>
-      <div className="BlogGridContainer BlogGridContainer-4">
-        <div className="BlogCardImage1">
+      <div
+        className={`${stylecss.BlogGridContainer} ${stylecss.BlogGridContainer_4}`}
+      >
+        <div className={stylecss.BlogCardImage1}>
           <img src={backgroundImg4} alt="" />
         </div>
-        <div className="backgroundblur"></div>
-        <div className="CardDetailsRight">
-          <div className="CardDetailsRightVl"></div>
-          <p className="CardDetailsRightDate">06 JUL 22</p>
+        <div className={stylecss.backgroundblur}></div>
+        <div className={stylecss.CardDetailsRight}>
+          <div className={stylecss.CardDetailsRightVl}></div>
+          <p className={stylecss.CardDetailsRightDate}>06 JUL 22</p>
         </div>
-        <div className="CardDetailsMiddle">
-          <p className="TrendsTitle">Technology | Trends</p>
-          <h3 className="CardDetailsMiddleTitle">Artificial Inteligence</h3>
-          <p className="CardDetailsMiddleName">Jane Smith</p>
-          <p className="CardDetailsMiddleDetails">
+        <div className={stylecss.CardDetailsMiddle}>
+          <p className={stylecss.TrendsTitle}>Technology | Trends</p>
+          <h3 className={stylecss.CardDetailsMiddleTitle}>System Changes</h3>
+          <p className={stylecss.CardDetailsMiddleName}>Jane Smith</p>
+          <p className={stylecss.CardDetailsMiddleDetails}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-
-        <div className="CommentAndLike">
+        <div className={stylecss.CommentAndLike}>
           <FaRegHeart
-            className="icon"
+            className={stylecss.icon}
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
             cursor="pointer"
           />
-          <span className="LikeCount">600</span>
+          <span className={stylecss.LikeCount}>600</span>
           <span></span>
           <FaRegCommentDots
-            className="icon"
+            className={stylecss.icon}
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
             cursor="pointer"
           />{" "}
-          <span className="CommentCount">50</span>
+          <span className={stylecss.CommentCount}>50</span>
         </div>
       </div>
-      <div className="BlogGridContainer BlogGridContainer-5">
-        <div className="BlogCardImage1">
+      <div
+        className={`${stylecss.BlogGridContainer} ${stylecss.BlogGridContainer_5}`}
+      >
+        <div className={stylecss.BlogCardImage1}>
           <img src={backgroundImg3} alt="" />
         </div>
-        <div className="backgroundblur"></div>
-        <div className="CardDetailsRight">
-          <div className="CardDetailsRightVl"></div>
-          <p className="CardDetailsRightDate1">06 JUL 22</p>
+        <div className={stylecss.backgroundblur}></div>
+        <div className={stylecss.CardDetailsRight}>
+          <div className={stylecss.CardDetailsRightVl}></div>
+          <p className={stylecss.CardDetailsRightDate1}>06 JUL 22</p>
         </div>
-        <div className="CardDetailsMiddle">
-          <p className="TrendsTitle">System Changes</p>
-          <h3 className="CardDetailsMiddleTitle">Big Data In future</h3>
-          <p className="CardDetailsMiddleName">Jane Smith</p>
-          <p className="CardDetailsMiddleDetails">
+        <div className={stylecss.CardDetailsMiddle}>
+          <p className={stylecss.TrendsTitle}>Technology | Trends</p>
+          <h3 className={stylecss.CardDetailsMiddleTitle}>System Changes</h3>
+          <p className={stylecss.CardDetailsMiddleName}>Jane Smith</p>
+          <p className={stylecss.CardDetailsMiddleDetails}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-
-        <div className="CommentAndLike">
+        <div className={stylecss.CommentAndLike}>
           <FaRegHeart
-            className="icon"
+            className={stylecss.icon}
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
             cursor="pointer"
           />
-          <span className="LikeCount">600</span>
+          <span className={stylecss.LikeCount}>600</span>
           <span></span>
           <FaRegCommentDots
-            className="icon"
+            className={stylecss.icon}
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
             cursor="pointer"
           />{" "}
-          <span className="CommentCount">50</span>
+          <span className={stylecss.CommentCount}>50</span>
         </div>
       </div>
-      <div className="BlogGridContainer BlogGridContainer-6">
-        <div className="BlogCardImage1">
+      <div
+        className={`${stylecss.BlogGridContainer} ${stylecss.BlogGridContainer_6}`}
+      >
+        <div className={stylecss.BlogCardImage1}>
           <img src={backgroundImg5} alt="" />
         </div>
-        <div className="backgroundblur"></div>
-        <div className="CardDetailsRight">
-          <div className="CardDetailsRightVl"></div>
-          <p className="CardDetailsRightDate1">06 JUL 22</p>
+        <div className={stylecss.backgroundblur}></div>
+        <div className={stylecss.CardDetailsRight}>
+          <div className={stylecss.CardDetailsRightVl}></div>
+          <p className={stylecss.CardDetailsRightDate1}>06 JUL 22</p>
         </div>
-        <div className="CardDetailsMiddle">
-          <p className="TrendsTitle">Technology | Trends</p>
-          <h3 className="CardDetailsMiddleTitle">Big Data In future</h3>
-          <p className="CardDetailsMiddleName">Jane Smith</p>
-          <p className="CardDetailsMiddleDetails">
+        <div className={stylecss.CardDetailsMiddle}>
+          <p className={stylecss.TrendsTitle}>Technology | Trends</p>
+          <h3 className={stylecss.CardDetailsMiddleTitle}>System Changes</h3>
+          <p className={stylecss.CardDetailsMiddleName}>Jane Smith</p>
+          <p className={stylecss.CardDetailsMiddleDetails}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-
-        <div className="CommentAndLike">
+        <div className={stylecss.CommentAndLike}>
           <FaRegHeart
-            className="icon"
+            className={stylecss.icon}
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
             cursor="pointer"
           />
-          <span className="LikeCount">600</span>
+          <span className={stylecss.LikeCount}>600</span>
           <span></span>
           <FaRegCommentDots
-            className="icon"
+            className={stylecss.icon}
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
             cursor="pointer"
           />{" "}
-          <span className="CommentCount">50</span>
+          <span className={stylecss.CommentCount}>50</span>
         </div>
       </div>
-      <div className="BlogGridContainer BlogGridContainer-7">
-        <div className="BlogCardImage1">
+      <div
+        className={`${stylecss.BlogGridContainer} ${stylecss.BlogGridContainer_7}`}
+      >
+        <div className={stylecss.BlogCardImage1}>
           <img src={backgroundImg5} alt="" />
         </div>
-        <div className="backgroundblur"></div>
-        <div className="CardDetailsRight">
-          <div className="CardDetailsRightVl"></div>
-          <p className="CardDetailsRightDate">06 JUL 22</p>
+        <div className={stylecss.backgroundblur}></div>
+        <div className={stylecss.CardDetailsRight}>
+          <div className={stylecss.CardDetailsRightVl}></div>
+          <p className={stylecss.CardDetailsRightDate}>06 JUL 22</p>
         </div>
-        <div className="CardDetailsMiddle">
-          <p className="TrendsTitle">Technology | Trends</p>
-          <h3 className="CardDetailsMiddleTitle">Big Data In future</h3>
-          <p className="CardDetailsMiddleName">Jane Smith</p>
-          <p className="CardDetailsMiddleDetails">
+        <div className={stylecss.CardDetailsMiddle}>
+          <p className={stylecss.TrendsTitle}>Technology | Trends</p>
+          <h3 className={stylecss.CardDetailsMiddleTitle}>System Changes</h3>
+          <p className={stylecss.CardDetailsMiddleName}>Jane Smith</p>
+          <p className={stylecss.CardDetailsMiddleDetails}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-
-        <div className="CommentAndLike">
+        <div className={stylecss.CommentAndLike}>
           <FaRegHeart
-            className="icon"
+            className={stylecss.icon}
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
             cursor="pointer"
           />
-          <span className="LikeCount">600</span>
+          <span className={stylecss.LikeCount}>600</span>
           <span></span>
           <FaRegCommentDots
-            className="icon"
+            className={stylecss.icon}
             style={{ marginRight: "6px" }}
             size="17px"
             color="white"
             cursor="pointer"
           />{" "}
-          <span className="CommentCount">50</span>
+          <span className={stylecss.CommentCount}>50</span>
         </div>
       </div>
     </div>

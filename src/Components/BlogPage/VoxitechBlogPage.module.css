@@ -17,34 +17,36 @@ body {
   grid-gap: 1em;
   margin-left: 40px;
   margin-right: 40px;
-  margin-top: 20px;
   margin-bottom: 20px;
 }
-.BlogGridContainer-1 {
+.BlogGridContainer {
+  color: #00c1ff;
+}
+.BlogGridContainer_1 {
   grid-column: 1/7;
 }
-.BlogGridContainer-2 {
+.BlogGridContainer_2 {
   grid-column: 1/5;
   cursor: pointer;
 }
 
-.BlogGridContainer-3 {
+.BlogGridContainer_3 {
   grid-column: 5/7;
   cursor: pointer;
 }
-.BlogGridContainer-4 {
+.BlogGridContainer_4 {
   grid-column: 1/3;
   cursor: pointer;
 }
-.BlogGridContainer-5 {
+.BlogGridContainer_5 {
   grid-column: 3/7;
   cursor: pointer;
 }
-.BlogGridContainer-6 {
+.BlogGridContainer_6 {
   grid-column: 1/5;
   cursor: pointer;
 }
-.BlogGridContainer-7 {
+.BlogGridContainer_7 {
   grid-column: 5/7;
   cursor: pointer;
 }
@@ -53,7 +55,7 @@ body {
 
 /*start primary Grid 01*/
 
-.BlogGridContainer-1 {
+.BlogGridContainer_1 {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: 400px 60px;
@@ -150,7 +152,7 @@ body {
 
 /* end Bloag slider Details And Search Body*/
 /* Start Bloag Title And Search Body*/
-.BlogGridContainer-1 .BlogTitleAndSearch .BlogTitle {
+.BlogGridContainer_1 .BlogTitleAndSearch .BlogTitle {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -159,12 +161,12 @@ body {
   justify-items: center;
   color: #f5f5f5;
 }
-.BlogGridContainer-1 .BlogTitleAndSearch .SearchAndMenu {
+.BlogGridContainer_1 .BlogTitleAndSearch .SearchAndMenu {
   flex: 1;
   text-align: right;
   margin-right: 5px;
 }
-.BlogGridContainer-1 .BlogTitleAndSearch .SearchAndMenu .searchbox {
+.BlogGridContainer_1 .BlogTitleAndSearch .SearchAndMenu .searchbox {
   padding-left: 5px;
   color: #fff;
   font-size: 16px;
@@ -175,7 +177,7 @@ body {
   background: rgba(0, 193, 255, 0.32);
   border-radius: 10px;
 }
-.BlogGridContainer-1 .BlogTitleAndSearch .fisearchIcon {
+.BlogGridContainer_1 .BlogTitleAndSearch .fisearchIcon {
   cursor: pointer;
   justify-items: center;
   color: white;
@@ -228,7 +230,7 @@ body {
 /* end Bloag BlogTags And Sugessions Body*/
 
 /*start primary Grid 02*/
-.BlogGridContainer-2 {
+.BlogGridContainer_2 {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
@@ -245,6 +247,7 @@ body {
   border-radius: 25px;
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
+
 .BlogCardImage1 img {
   width: 100%;
   height: 100%;
@@ -360,7 +363,7 @@ body {
 /*end primary Grid 02 body*/
 
 /*start primary Grid 03*/
-.BlogGridContainer-3 {
+.BlogGridContainer_3 {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
@@ -368,7 +371,7 @@ body {
 }
 /*end primary Grid 03*/
 /*start primary Grid 04*/
-.BlogGridContainer-4 {
+.BlogGridContainer_4 {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
@@ -376,7 +379,7 @@ body {
 }
 /*end primary Grid 04*/
 /*start primary Grid 04*/
-.BlogGridContainer-5 {
+.BlogGridContainer_5 {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
@@ -385,7 +388,7 @@ body {
 
 /*end primary Grid 04*/
 /*start primary Grid 05*/
-.BlogGridContainer-6 {
+.BlogGridContainer_6 {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
@@ -393,7 +396,7 @@ body {
 }
 /*end primary Grid 05*/
 /*start primary Grid 06*/
-.BlogGridContainer-7 {
+.BlogGridContainer_7 {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
@@ -438,7 +441,7 @@ body {
 /*End Tablet Responsive*/
 @media screen and (max-width: 884px) {
   /*blog page main image details size change*/
-  .BlogGridContainer-1 {
+  .BlogGridContainer_1 {
     grid-template-rows: 250px 120px auto;
   }
 
@@ -485,17 +488,17 @@ body {
     display: inline;
   }
 
-  .BlogGridContainer-1 .BlogTitleAndSearch .BlogTitle {
+  .BlogGridContainer_1 .BlogTitleAndSearch .BlogTitle {
     font-size: 27px;
   }
-  .BlogGridContainer-1 .BlogTitleAndSearch .SearchAndMenu {
+  .BlogGridContainer_1 .BlogTitleAndSearch .SearchAndMenu {
     position: absolute;
   }
-  .BlogGridContainer-1 .BlogTitleAndSearch .SearchAndMenu .searchbox {
+  .BlogGridContainer_1 .BlogTitleAndSearch .SearchAndMenu .searchbox {
     height: 40px;
     width: 85vw;
   }
-  .BlogGridContainer-1 .BlogTitleAndSearch .fisearchIcon {
+  .BlogGridContainer_1 .BlogTitleAndSearch .fisearchIcon {
     display: flex;
     position: absolute;
     right: 5px;
@@ -520,22 +523,22 @@ body {
     right: 50%;
   }
   /*blog card grid size fix*/
-  .BlogGridContainer-2 {
+  .BlogGridContainer_2 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-3 {
+  .BlogGridContainer_3 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-4 {
+  .BlogGridContainer_4 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-5 {
+  .BlogGridContainer_5 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-6 {
+  .BlogGridContainer_6 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-7 {
+  .BlogGridContainer_7 {
     grid-column: 1/7;
   }
 
@@ -585,25 +588,25 @@ body {
   .CardDetailsRight .CardDetailsRightDate {
     right: 50%;
   }
-  .BlogGridContainer-2 {
+  .BlogGridContainer_2 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-3 {
+  .BlogGridContainer_3 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-4 {
+  .BlogGridContainer_4 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-5 {
+  .BlogGridContainer_5 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-6 {
+  .BlogGridContainer_6 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-7 {
+  .BlogGridContainer_7 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-8 {
+  .BlogGridContainer_8 {
     grid-column: 1/7;
   }
 }
@@ -618,25 +621,25 @@ body {
     right: 50%;
   }
   /*blog card grid size fix*/
-  .BlogGridContainer-2 {
+  .BlogGridContainer_2 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-3 {
+  .BlogGridContainer_3 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-4 {
+  .BlogGridContainer_4 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-5 {
+  .BlogGridContainer_5 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-6 {
+  .BlogGridContainer_6 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-7 {
+  .BlogGridContainer_7 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-8 {
+  .BlogGridContainer_8 {
     grid-column: 1/7;
   }
 }
@@ -644,7 +647,7 @@ body {
 /* start mobile  responsive*/
 @media screen and (max-width: 750px) {
   /*blog page main image details size change*/
-  .BlogGridContainer-1 {
+  .BlogGridContainer_1 {
     grid-template-rows: 120px 120px auto;
   }
 
@@ -691,17 +694,17 @@ body {
     display: inline;
   }
 
-  .BlogGridContainer-1 .BlogTitleAndSearch .BlogTitle {
+  .BlogGridContainer_1 .BlogTitleAndSearch .BlogTitle {
     font-size: 27px;
   }
-  .BlogGridContainer-1 .BlogTitleAndSearch .SearchAndMenu {
+  .BlogGridContainer_1 .BlogTitleAndSearch .SearchAndMenu {
     position: absolute;
   }
-  .BlogGridContainer-1 .BlogTitleAndSearch .SearchAndMenu .searchbox {
+  .BlogGridContainer_1 .BlogTitleAndSearch .SearchAndMenu .searchbox {
     height: 35px;
     width: 75vw;
   }
-  .BlogGridContainer-1 .BlogTitleAndSearch .fisearchIcon {
+  .BlogGridContainer_1 .BlogTitleAndSearch .fisearchIcon {
     display: flex;
     position: absolute;
     right: 5px;
@@ -726,25 +729,25 @@ body {
     right: 50%;
   }
   /*blog card grid size fix*/
-  .BlogGridContainer-2 {
+  .BlogGridContainer_2 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-3 {
+  .BlogGridContainer_3 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-4 {
+  .BlogGridContainer_4 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-5 {
+  .BlogGridContainer_5 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-6 {
+  .BlogGridContainer_6 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-7 {
+  .BlogGridContainer_7 {
     grid-column: 1/7;
   }
-  .BlogGridContainer-8 {
+  .BlogGridContainer_8 {
     grid-column: 1/7;
   }
   /* blog card line display none*/
