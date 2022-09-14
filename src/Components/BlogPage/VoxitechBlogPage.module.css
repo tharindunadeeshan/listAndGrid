@@ -70,6 +70,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: none;
 }
 
 .SliderImageDeatils {
@@ -87,12 +88,12 @@ body {
   grid-column: 1/11;
   grid-row: 2/3;
   align-items: center;
-  padding-left: 20px;
+  padding-left: 0px;
 }
 .BlogTags {
   grid-column: 1/11;
   grid-auto-rows: auto;
-  padding-left: 20px;
+  padding-left: 0px;
   padding-bottom: 10px;
 }
 /*end primary Grid 01*/

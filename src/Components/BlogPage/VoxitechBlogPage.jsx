@@ -123,7 +123,7 @@ const VoxitechBlogPage = () => {
         <div className={stylecss.backgroundblur}></div>
         <div className={stylecss.CardDetailsRight}>
           <div className={stylecss.CardDetailsRightVl}></div>
-          <p className={stylecss.CardDetailsRightDate}>06 JUL 22</p>
+          <p className={stylecss.CardDetailsRightDate}>06 Jul 22</p>
         </div>
         <div className={stylecss.CardDetailsMiddle}>
           <p className={stylecss.TrendsTitle}>Technology | Trends</p>
