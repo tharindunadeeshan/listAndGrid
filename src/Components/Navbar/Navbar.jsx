@@ -2,6 +2,7 @@ import { React, useState } from "react";
 import "./Navbar.css";
 import $ from "jquery";
 import images from "../../constants/images";
+
 function Navbar({ theme, changeTheme }) {
   if (!theme) {
     document.documentElement.style.setProperty(

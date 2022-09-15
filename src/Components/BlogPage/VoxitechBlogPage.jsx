@@ -16,6 +16,7 @@ import roboot1 from "../../images/roboot1.gif";
 import { FaRegCommentDots, FaRegHeart } from "react-icons/fa";
 import { MdKeyboardArrowLeft, MdArrowForwardIos } from "react-icons/md";
 import { MdFilterList } from "react-icons/md";
+import VoxitechBlogPageBody from "./VoxitechBlogPageBody";
 
 const VoxitechBlogPage = () => {
   return (
@@ -71,249 +72,84 @@ const VoxitechBlogPage = () => {
         </div>
       </div>
 
-      <div
-        className={`${stylecss.BlogGridContainer} ${stylecss.BlogGridContainer_2}`}
-      >
-        <div className={stylecss.BlogCardImage1}>
-          <img src={backgroundImg1} alt="" />
-        </div>
-        <div className={stylecss.backgroundblur}></div>
-
-        <div className={stylecss.CardDetailsRight}>
-          <div className={stylecss.CardDetailsRightVl}></div>
-          <p className={stylecss.CardDetailsRightDate1}>06 JUL 22</p>
-        </div>
-        <div className={stylecss.CardDetailsMiddle}>
-          <p className={stylecss.TrendsTitle}>Technology | Trends</p>
-          <p className={stylecss.CardDetailsMiddleName}>Jane Smith</p>
-          <h3 className={stylecss.CardDetailsMiddleTitle}>
-            Big Data In future
-          </h3>
-          <p className={stylecss.CardDetailsMiddleDetails}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div className={stylecss.CommentAndLike}>
-          <FaRegHeart
-            className={stylecss.icon}
-            style={{ marginRight: "10px" }}
-            size="17px"
-            color="white"
-            cursor="pointer"
-          />
-          <span className={stylecss.LikeCount}>600</span>
-          <span></span>
-          <FaRegCommentDots
-            className={stylecss.icon}
-            style={{ marginRight: "10px" }}
-            size="17px"
-            color="white"
-            cursor="pointer"
-          />{" "}
-          <span className={stylecss.CommentCount}>50</span>
-        </div>
-      </div>
-      <div
-        className={`${stylecss.BlogGridContainer} ${stylecss.BlogGridContainer_3}`}
-      >
-        <div className={stylecss.BlogCardImage1}>
-          <img src={backgroundImg2} alt="" />
-        </div>
-        <div className={stylecss.backgroundblur}></div>
-        <div className={stylecss.CardDetailsRight}>
-          <div className={stylecss.CardDetailsRightVl}></div>
-          <p className={stylecss.CardDetailsRightDate}>06 Jul 22</p>
-        </div>
-        <div className={stylecss.CardDetailsMiddle}>
-          <p className={stylecss.TrendsTitle}>Technology | Trends</p>
-          <h3 className={stylecss.CardDetailsMiddleTitle}>System Changes</h3>
-          <p className={stylecss.CardDetailsMiddleName}>Jane Smith</p>
-          <p className={stylecss.CardDetailsMiddleDetails}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div className={stylecss.CommentAndLike}>
-          <FaRegHeart
-            className={stylecss.icon}
-            style={{ marginRight: "6px" }}
-            size="17px"
-            color="white"
-            cursor="pointer"
-          />
-          <span className={stylecss.LikeCount}>600</span>
-          <span></span>
-          <FaRegCommentDots
-            className={stylecss.icon}
-            style={{ marginRight: "6px" }}
-            size="17px"
-            color="white"
-            cursor="pointer"
-          />{" "}
-          <span className={stylecss.CommentCount}>50</span>
-        </div>
-      </div>
-      <div
-        className={`${stylecss.BlogGridContainer} ${stylecss.BlogGridContainer_4}`}
-      >
-        <div className={stylecss.BlogCardImage1}>
-          <img src={backgroundImg4} alt="" />
-        </div>
-        <div className={stylecss.backgroundblur}></div>
-        <div className={stylecss.CardDetailsRight}>
-          <div className={stylecss.CardDetailsRightVl}></div>
-          <p className={stylecss.CardDetailsRightDate}>06 JUL 22</p>
-        </div>
-        <div className={stylecss.CardDetailsMiddle}>
-          <p className={stylecss.TrendsTitle}>Technology | Trends</p>
-          <h3 className={stylecss.CardDetailsMiddleTitle}>System Changes</h3>
-          <p className={stylecss.CardDetailsMiddleName}>Jane Smith</p>
-          <p className={stylecss.CardDetailsMiddleDetails}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div className={stylecss.CommentAndLike}>
-          <FaRegHeart
-            className={stylecss.icon}
-            style={{ marginRight: "6px" }}
-            size="17px"
-            color="white"
-            cursor="pointer"
-          />
-          <span className={stylecss.LikeCount}>600</span>
-          <span></span>
-          <FaRegCommentDots
-            className={stylecss.icon}
-            style={{ marginRight: "6px" }}
-            size="17px"
-            color="white"
-            cursor="pointer"
-          />{" "}
-          <span className={stylecss.CommentCount}>50</span>
-        </div>
-      </div>
-      <div
-        className={`${stylecss.BlogGridContainer} ${stylecss.BlogGridContainer_5}`}
-      >
-        <div className={stylecss.BlogCardImage1}>
-          <img src={backgroundImg3} alt="" />
-        </div>
-        <div className={stylecss.backgroundblur}></div>
-        <div className={stylecss.CardDetailsRight}>
-          <div className={stylecss.CardDetailsRightVl}></div>
-          <p className={stylecss.CardDetailsRightDate1}>06 JUL 22</p>
-        </div>
-        <div className={stylecss.CardDetailsMiddle}>
-          <p className={stylecss.TrendsTitle}>Technology | Trends</p>
-          <h3 className={stylecss.CardDetailsMiddleTitle}>System Changes</h3>
-          <p className={stylecss.CardDetailsMiddleName}>Jane Smith</p>
-          <p className={stylecss.CardDetailsMiddleDetails}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div className={stylecss.CommentAndLike}>
-          <FaRegHeart
-            className={stylecss.icon}
-            style={{ marginRight: "6px" }}
-            size="17px"
-            color="white"
-            cursor="pointer"
-          />
-          <span className={stylecss.LikeCount}>600</span>
-          <span></span>
-          <FaRegCommentDots
-            className={stylecss.icon}
-            style={{ marginRight: "6px" }}
-            size="17px"
-            color="white"
-            cursor="pointer"
-          />{" "}
-          <span className={stylecss.CommentCount}>50</span>
-        </div>
-      </div>
-      <div
-        className={`${stylecss.BlogGridContainer} ${stylecss.BlogGridContainer_6}`}
-      >
-        <div className={stylecss.BlogCardImage1}>
-          <img src={backgroundImg5} alt="" />
-        </div>
-        <div className={stylecss.backgroundblur}></div>
-        <div className={stylecss.CardDetailsRight}>
-          <div className={stylecss.CardDetailsRightVl}></div>
-          <p className={stylecss.CardDetailsRightDate1}>06 JUL 22</p>
-        </div>
-        <div className={stylecss.CardDetailsMiddle}>
-          <p className={stylecss.TrendsTitle}>Technology | Trends</p>
-          <h3 className={stylecss.CardDetailsMiddleTitle}>System Changes</h3>
-          <p className={stylecss.CardDetailsMiddleName}>Jane Smith</p>
-          <p className={stylecss.CardDetailsMiddleDetails}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div className={stylecss.CommentAndLike}>
-          <FaRegHeart
-            className={stylecss.icon}
-            style={{ marginRight: "6px" }}
-            size="17px"
-            color="white"
-            cursor="pointer"
-          />
-          <span className={stylecss.LikeCount}>600</span>
-          <span></span>
-          <FaRegCommentDots
-            className={stylecss.icon}
-            style={{ marginRight: "6px" }}
-            size="17px"
-            color="white"
-            cursor="pointer"
-          />{" "}
-          <span className={stylecss.CommentCount}>50</span>
-        </div>
-      </div>
-      <div
-        className={`${stylecss.BlogGridContainer} ${stylecss.BlogGridContainer_7}`}
-      >
-        <div className={stylecss.BlogCardImage1}>
-          <img src={backgroundImg5} alt="" />
-        </div>
-        <div className={stylecss.backgroundblur}></div>
-        <div className={stylecss.CardDetailsRight}>
-          <div className={stylecss.CardDetailsRightVl}></div>
-          <p className={stylecss.CardDetailsRightDate}>06 JUL 22</p>
-        </div>
-        <div className={stylecss.CardDetailsMiddle}>
-          <p className={stylecss.TrendsTitle}>Technology | Trends</p>
-          <h3 className={stylecss.CardDetailsMiddleTitle}>System Changes</h3>
-          <p className={stylecss.CardDetailsMiddleName}>Jane Smith</p>
-          <p className={stylecss.CardDetailsMiddleDetails}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div className={stylecss.CommentAndLike}>
-          <FaRegHeart
-            className={stylecss.icon}
-            style={{ marginRight: "6px" }}
-            size="17px"
-            color="white"
-            cursor="pointer"
-          />
-          <span className={stylecss.LikeCount}>600</span>
-          <span></span>
-          <FaRegCommentDots
-            className={stylecss.icon}
-            style={{ marginRight: "6px" }}
-            size="17px"
-            color="white"
-            cursor="pointer"
-          />{" "}
-          <span className={stylecss.CommentCount}>50</span>
-        </div>
-      </div>
+      <VoxitechBlogPageBody
+        BlogGridContainerProps="BlogGridContainer_2"
+        BlogCardImage1Props={backgroundImg1}
+        TrendsTitleProps="Technology | Trends"
+        CardDetailsRightDate1Props="CardDetailsRightDate1"
+        CardDetailsRightDateProps="06 JUL 22"
+        CardDetailsMiddleTitleProps="System Changes"
+        CardDetailsMiddleNameProps="Jane Smith"
+        CardDetailsMiddleDetailsPrps=" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        LikeCountPrps="600"
+        CommentCountPrps="50"
+      />
+      <VoxitechBlogPageBody
+        BlogGridContainerProps="BlogGridContainer_3"
+        BlogCardImage1Props={backgroundImg2}
+        TrendsTitleProps="Technology | Trends"
+        CardDetailsRightDate1Props="CardDetailsRightDate"
+        CardDetailsRightDateProps="06 JUL 22"
+        CardDetailsMiddleTitleProps="System Changes"
+        CardDetailsMiddleNameProps="Jane Smith"
+        CardDetailsMiddleDetailsPrps=" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        LikeCountPrps="600"
+        CommentCountPrps="50"
+      />
+      <VoxitechBlogPageBody
+        BlogGridContainerProps="BlogGridContainer_4"
+        BlogCardImage1Props={backgroundImg3}
+        TrendsTitleProps="Technology | Trends"
+        CardDetailsRightDate1Props="CardDetailsRightDate"
+        CardDetailsRightDateProps="06 JUL 22"
+        CardDetailsMiddleTitleProps="System Changes"
+        CardDetailsMiddleNameProps="Jane Smith"
+        CardDetailsMiddleDetailsPrps=" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        LikeCountPrps="600"
+        CommentCountPrps="50"
+      />
+      <VoxitechBlogPageBody
+        BlogGridContainerProps="BlogGridContainer_5"
+        BlogCardImage1Props={backgroundImg4}
+        TrendsTitleProps="Technology | Trends"
+        CardDetailsRightDate1Props="CardDetailsRightDate1"
+        CardDetailsRightDateProps="06 JUL 22"
+        CardDetailsMiddleTitleProps="System Changes"
+        CardDetailsMiddleNameProps="Jane Smith"
+        CardDetailsMiddleDetailsPrps=" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        LikeCountPrps="600"
+        CommentCountPrps="50"
+      />
+      <VoxitechBlogPageBody
+        BlogGridContainerProps="BlogGridContainer_2"
+        BlogCardImage1Props={backgroundImg5}
+        TrendsTitleProps="Technology | Trends"
+        CardDetailsRightDate1Props="CardDetailsRightDate1"
+        CardDetailsRightDateProps="06 JUL 22"
+        CardDetailsMiddleTitleProps="System Changes"
+        CardDetailsMiddleNameProps="Jane Smith"
+        CardDetailsMiddleDetailsPrps=" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        LikeCountPrps="600"
+        CommentCountPrps="50"
+      />
+      <VoxitechBlogPageBody
+        BlogGridContainerProps="BlogGridContainer_3"
+        BlogCardImage1Props={sliderImage1}
+        TrendsTitleProps="Technology | Trends"
+        CardDetailsRightDate1Props="CardDetailsRightDate"
+        CardDetailsRightDateProps="06 JUL 22"
+        CardDetailsMiddleTitleProps="System Changes"
+        CardDetailsMiddleNameProps="Jane Smith"
+        CardDetailsMiddleDetailsPrps=" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        LikeCountPrps="600"
+        CommentCountPrps="50"
+      />
     </div>
   );
 };
